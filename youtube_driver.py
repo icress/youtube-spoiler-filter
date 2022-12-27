@@ -63,10 +63,4 @@ class WebDriver:
         for key in final_dict.keys():
             print(key, final_dict[key])
 
-        # final_list = [[title_list[n], link_list[n]] for n in range(10)]
-        # print(final_list)
-
-        # for listed in final_list:
-        #     print(listed)
-
         self.driver.quit()
